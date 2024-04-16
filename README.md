@@ -10,3 +10,11 @@ This project is built using React.js and showcases my skills, projects, and expe
 - **Skills section:** Highlight your technical skills and expertise.
 - **About me:** Brief introduction about yourself and your interests.
 - **Contact form:** Allow visitors to get in touch with you easily.
+
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/your-portfolio.git
+```
