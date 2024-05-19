@@ -19,7 +19,7 @@ This project is built using React.js and showcases my skills, projects, and expe
 git clone https://github.com/your-username/your-portfolio.git
 ```
 
- Navigate to the project directory:
+2. Navigate to the project directory:
    ```
    cd your-portfolio
    ```
