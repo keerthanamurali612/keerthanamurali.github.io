@@ -11,6 +11,11 @@ header ul li {
   
 }
 
+.bg-secondary{
+  background: #53db93 ;
+  
+}
+
 .mobile-nav{
   @apply fixed top-10 left-0 bg-zinc-500 w-full h-1/4;
 }
