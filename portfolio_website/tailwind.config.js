@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
+      'header-font':'Poppins',
       'hero-font':'Sriracha'
     }
   },
