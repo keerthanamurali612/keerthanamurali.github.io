@@ -1,12 +1,24 @@
-import HeroImg from '../assets/hero.png'
-export default function Hero(){
-    return  <section className='flex px-5 py-32 bg-secondary justify-center '>
-        <h1 className='w-1/2 text-4xl text-black  font-hero-font' > Hi, <br/> I'm Keerthana Murali
+import HeroImg from '../assets/hero.png';
+import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } from "react-icons/ai";
 
-        <p className='text-2xl'>Front-end Developer</p>
- 
-        </h1>
-        <img className='w-1/3' src={HeroImg} />
+
+export default function Hero(){
+    return  <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center '>
+        <div className='md:w-1/2 flex flex-col' >
+           <h1 className=' text-4xl text-black  font-hero-font' > Hi, <br/> I'm Keerthana Murali
+
+              <p className='text-2xl'>Front-end Developer</p>
+
+           </h1>
+             
+             <div className='flex text-3xl px-4 py-5 '>
+                <a href='#' className='pr-4 hover:text-[#971b0a]'> <AiOutlineTwitter/></a>
+                <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineFacebook /></a>
+                <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
+                <a href='#' className=' hover:text-[#971b0a]'> <AiOutlineGithub  /></a>
+             </div>
+        </div>
+        <img className='md:w-1/3' src={HeroImg} />
         
 
 
