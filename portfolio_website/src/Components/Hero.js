@@ -15,7 +15,7 @@ export default function Hero(){
                 <a href='#' className='pr-4 hover:text-[#971b0a]'> <AiOutlineTwitter/></a>
                 <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineFacebook /></a>
                 <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
-                <a href='#' className=' hover:text-[#971b0a]'> <AiOutlineGithub  /></a>
+                <a href='#' className=' hover:text-[#971b0a]'> <AiOutlineGithub /></a>
              </div>
         </div>
         <img className='md:w-1/3' src={HeroImg} />
