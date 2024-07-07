@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderColor:{
+        'primary':'rgb(85 81 227)'
+      }
+    },
     fontFamily:{
       'header-font':'Poppins',
       'hero-font':'Sriracha'
