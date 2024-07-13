@@ -13,7 +13,6 @@ export default function Hero(){
              
              <div className='flex text-3xl px-4 py-5 '>
                 <a href='#' className='pr-4 hover:text-[#971b0a]'> <AiOutlineTwitter/></a>
-                <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineFacebook /></a>
                 <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
                 <a href='#' className=' hover:text-[#971b0a]'> <AiOutlineGithub /></a>
              </div>
