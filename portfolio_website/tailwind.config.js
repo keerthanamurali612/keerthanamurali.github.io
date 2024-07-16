@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       borderColor:{
-        'primary':'rgb(85 81 227)'
+        'primary':'rgb(85 81 227)',
+        'bg-primary':'#971b0a',
+        'bg-secondary':'#E7E8D1',
+        'bg-third':'#A7BEAE'
       }
     },
     fontFamily:{

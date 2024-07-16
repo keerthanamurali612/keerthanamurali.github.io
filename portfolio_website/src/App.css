@@ -20,6 +20,10 @@ header ul li {
   background: #A7BEAE;
 }
 
+/* .bg-color-heading{
+  text-4xl text-black border-b-4 border-[#971b0a] mb-5 w-[170px] font-bold ;
+} */
+
 .mobile-nav{
   @apply fixed top-16 left-0 bg-zinc-500 w-full h-1/4;
 }
