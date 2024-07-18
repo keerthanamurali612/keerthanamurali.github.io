@@ -1,6 +1,7 @@
 
 export default function Contact() {
-    return <section className="flex flex-col bg-secondary font-feature-font px-5 py-32">
+    return (
+      <section className="flex flex-col bg-secondary font-feature-font px-5 py-32">
         
         <div className=" flex flex-col items-center">
          
@@ -17,5 +18,7 @@ export default function Contact() {
           
         </div>
       </section>
+    )
+    
     
 }
