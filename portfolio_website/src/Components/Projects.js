@@ -4,7 +4,7 @@ import websiteImg3 from "../assets/website-blog.jpg";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col py-20 px-5 justify-center bg-primary-light text-white">
+    <section id="project" className="flex flex-col py-20 px-5 justify-center bg-primary-light text-white">
       <div className="w-full ">
         <div className="flex  flex-col px-10 py-5 ">
           <h1 className="text-4xl text-black border-b-4 border-white mb-5 w-[170px] font-bold ">

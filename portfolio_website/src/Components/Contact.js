@@ -1,7 +1,7 @@
 
 export default function Contact() {
     return (
-      <section className="flex flex-col bg-secondary font-feature-font px-5 py-32">
+      <section className="flex flex-col bg-secondary font-feature-font px-5 py-32" id="contact">
         
         <div className=" flex flex-col items-center">
          

@@ -2,8 +2,8 @@ import ResumeImg from "../assets/resume.jpg";
 
 export default function Resume() {
   return (
-    <section className="flex flex-col md:flex-row bg-about-primary px-5 font-feature-font">
-      <div className=" py-5 md:w-1/2 flex  justify-end">
+    <section  id="resume" className="flex flex-col md:flex-row bg-about-primary px-5 font-feature-font">
+      <div className=" py-5 md:w-1/2 flex justify-center md:justify-end">
         <img  className="w-[300px]" src={ResumeImg} />
       </div>
       <div className="md:w-1/2 flex justify-center">

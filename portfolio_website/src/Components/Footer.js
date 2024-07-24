@@ -1,7 +1,7 @@
 export default function Footer (){
     return (
-        <section>
-            <h1>Hello world!</h1>
-        </section>
+        <div className="py-4 bg-primary-light text-center text-white" id="footer">
+            &copy;Rudra copyright 2024
+        </div>
     )
 }

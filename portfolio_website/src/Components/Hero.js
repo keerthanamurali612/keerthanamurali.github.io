@@ -3,11 +3,20 @@ import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } 
 
 
 export default function Hero(){
+
+   const config ={
+      subtitle:'Front-end Developer'
+   }
+
+
+
+
+
     return  <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center '>
         <div className='md:w-1/2 flex flex-col' >
            <h1 className=' text-4xl text-black  font-hero-font' > Hi, <br/> I'm Keerthana Murali
 
-              <p className='text-2xl'>Front-end Developer</p>
+              <p className='text-2xl'>{config.subtitle}</p>
 
            </h1>
              
