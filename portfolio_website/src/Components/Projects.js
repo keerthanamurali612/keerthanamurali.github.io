@@ -9,17 +9,17 @@ export default function Projects() {
       {
         image: websiteImg1,
         description:"A Ecommerce Website.Built with MERN Stack",
-        link:""
+        link:"https://github.com/keerthanamurali612 "
       },
       {
         image: websiteImg2,
         description:"Food Ecommerce Website like Swiggy,Built with Angular",
-        link:""
+        link:"https://github.com/keerthanamurali612 "
       },
       {
         image: websiteImg3,
         description:"Basic Blog Website.Built with Next Js and MongoDB",
-        link:""
+        link:"https://github.com/keerthanamurali612 "
       }
       
     ]
@@ -43,6 +43,9 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row px-10  gap-5">
 
           {config.projects.map((project)=>(
+
+            // <a href={project.link}>
+
             <div className="relative ">  
             <img className="h-[200px] w-[500px]" src={project.image} />
             <div className="project-desc">
