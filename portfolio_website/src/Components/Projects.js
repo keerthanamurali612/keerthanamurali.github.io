@@ -44,15 +44,23 @@ export default function Projects() {
 
           {config.projects.map((project)=>(
 
-            // <a href={project.link}>
+             
 
             <div className="relative ">  
-            <img className="h-[200px] w-[500px]" src={project.image} />
-            <div className="project-desc">
-              <p className="text-center px-5 py-5">{project.description}</p>
-            </div>
+                <img className="h-[200px] w-[500px]" src={project.image} />
+              <div className="project-desc">
+                 <p className="text-center px-5 py-5">{project.description}</p>
 
-          </div>
+                 <div className="flex justify-center">
+                    <a className="btn" target="_blank" href={project.link}>View Project</a>
+                 </div>
+
+              </div>
+
+              
+
+
+            </div>
 
           ))}
         

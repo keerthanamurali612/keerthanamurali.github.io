@@ -1,5 +1,10 @@
 
 export default function Contact() {
+
+  const config={
+    email:'123@gmail.com',
+    phone:'123456789'
+  }
     return (
       <section className="flex flex-col bg-secondary font-feature-font px-5 py-32" id="contact">
         
@@ -12,8 +17,8 @@ export default function Contact() {
               Please Contact Me
               
             </p>
-            <p className="py-2"><span className="font-bold">Email:</span>123@gmail.com</p>
-            <p className="py-2"><span className="font-bold">Phone:</span>123456789</p>
+            <p className="py-2"><span className="font-bold">Email:</span>{config.email}</p>
+            <p className="py-2"><span className="font-bold">Phone:</span>{config.phone}</p>
             
           
         </div>

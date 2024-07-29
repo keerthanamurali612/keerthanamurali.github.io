@@ -5,7 +5,11 @@ import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin,AiOutlineGithub } 
 export default function Hero(){
 
    const config ={
-      subtitle:'Front-end Developer'
+      subtitle:'Front-end Developer',
+      social:{
+         github:"https://github.com/keerthanamurali612",
+         linkedin:"https://www.linkedin.com/in/keerthana-murali-mk99/"
+      }
    }
 
 
@@ -22,8 +26,8 @@ export default function Hero(){
              
              <div className='flex text-3xl px-4 py-5 '>
                 
-                <a href='#'className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
-                <a href='#' className=' hover:text-[#971b0a]'> <AiOutlineGithub /></a>
+                <a href={config.social.linkedin}className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
+                <a href={config.social.github} className=' hover:text-[#971b0a]'> <AiOutlineGithub /></a>
              </div>
         </div>
         <img className='md:w-1/3' src={HeroImg} />
