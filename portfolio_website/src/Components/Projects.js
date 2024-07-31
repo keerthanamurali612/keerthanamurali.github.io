@@ -27,10 +27,10 @@ export default function Projects() {
 
 
   return (
-    <section id="projects" className="flex flex-col py-20 px-5 justify-center bg-primary-light text-white">
+    <section id="projects" className="flex flex-col py-20 px-5 justify-center bg-demo-secondary text-white">
       <div className="w-full ">
         <div className="flex  flex-col px-10 py-5 ">
-          <h1 className="text-4xl text-black border-b-4 border-white mb-5 w-[170px] font-bold ">
+          <h1 className="text-4xl text-black border-b-4 border-[#007BFF] mb-5 w-[170px] font-bold ">
             Projects
           </h1>
           <p>
@@ -52,7 +52,7 @@ export default function Projects() {
                  <p className="text-center px-5 py-5">{project.description}</p>
 
                  <div className="flex justify-center">
-                    <a className="btn" target="_blank" href={project.link}>View Project</a>
+                    <a className="btn" target="_blank" href={project.link}> View Project</a>
                  </div>
 
               </div>

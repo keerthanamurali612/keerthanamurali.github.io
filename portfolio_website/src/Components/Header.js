@@ -5,7 +5,7 @@ export default function Header(){
   const [toggleMenu,setToggleMenu]=useState(false);
 
 
-    return <header className="flex justify-between px-5 py-5 bg-primary font-header-font ">
+    return <header className="flex justify-between px-5 py-5 bg-demo-primary font-header-font ">
         <a className="font-bold text-black text-xl " href="#"> <span className='text-3xl'> P</span>orfolio</a>
 
         <nav className="hidden md:block " >

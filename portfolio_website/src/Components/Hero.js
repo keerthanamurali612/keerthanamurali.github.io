@@ -16,7 +16,7 @@ export default function Hero(){
 
 
 
-    return  <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center '>
+    return  <section className='flex flex-col md:flex-row px-5 py-32 bg-demo-secondary justify-center '>
         <div className='md:w-1/2 flex flex-col' >
            <h1 className=' text-4xl text-black  font-hero-font' > Hi, <br/> I'm Keerthana Murali
 
@@ -26,8 +26,8 @@ export default function Hero(){
              
              <div className='flex text-3xl px-4 py-5 '>
                 
-                <a href={config.social.linkedin}className='pr-4  hover:text-[#971b0a]'> <AiOutlineLinkedin /></a>
-                <a href={config.social.github} className=' hover:text-[#971b0a]'> <AiOutlineGithub /></a>
+                <a href={config.social.linkedin}className='pr-4  hover:text-[#007BFF]'> <AiOutlineLinkedin /></a>
+                <a href={config.social.github} className=' hover:text-[#007BFF]'> <AiOutlineGithub /></a>
              </div>
         </div>
         <img className='md:w-1/3' src={HeroImg} />

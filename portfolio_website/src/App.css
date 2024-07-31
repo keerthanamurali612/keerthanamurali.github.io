@@ -17,12 +17,12 @@ header ul li {
 }
 
 .bg-secondary{
-  background: #E7E8D1 ;
+  background: #eeeeeb ;
   
 }
 
 .bg-about-primary{
-  background: #A7BEAE;
+  background: #edf0ee;
 }
 
 
@@ -36,14 +36,32 @@ header ul li {
 }
 
 .project-desc{
-  @apply  absolute left-0 right-0 bottom-0 top-0 bg-secondary text-black opacity-0 duration-500 hover:opacity-100
+  @apply  absolute left-0 right-0 bottom-0 top-0 bg-about-primary text-black opacity-0 duration-500 hover:opacity-100
             
 }
 
 .btn{
-  @apply bg-primary px-5 py-2 font-bold  hover:border-2 border-white rounded 
+  @apply bg-demo-primary px-5 py-2 font-bold  hover:border-2 border-white rounded 
 }
 
 html {
   scroll-behavior:smooth ;
+}
+
+/* demo color */
+
+.bg-demo-primary{
+  background: #007BFF;
+}
+.bg-demo-secondary{
+  background: #FFFFFF;
+}
+/* .bg-demo-secondary{
+  background: #FF7F50;
+} */
+/* .bg-demo-accent{
+  background: #F8F9FA;
+} */
+.bg-demo-accent{
+  background: #CDE8E5;
 }
