@@ -22,7 +22,16 @@ export default function About (){
           <h1 className='text-4xl text-black border-b-4 border-[#007BFF] mb-5 w-[170px] font-bold '>About Me</h1>
           <p className='2xl pb-5 '> {config.line1} </p>
           <p className='2xl pb-5'> {config.line2}</p>
-          <p className='2xl'> {config.line3} </p>
+          <p className='2xl pb-5'> {config.line3} </p>
+
+          <div>
+            
+               
+                <a className="btn  " href={config.link}>Download </a>
+                
+            
+           
+          </div>
 
           </div>
            

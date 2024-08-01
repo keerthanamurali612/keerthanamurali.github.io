@@ -14,7 +14,7 @@ export default function Contact() {
               Contact
             </h1>
             <p className="2xl pb-5 ">
-              Please Contact Me
+              Get in touch
               
             </p>
             <p className="py-2"><span className="font-bold">Email:</span>{config.email}</p>
