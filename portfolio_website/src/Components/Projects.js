@@ -46,8 +46,8 @@ export default function Projects() {
 
              
 
-            <div className="relative ">  
-                <img className="h-[200px] w-[500px]" src={project.image} />
+            <div className="relative hover:shadow-2xl  ">  
+                <img className="h-[200px] w-[500px] rounded " src={project.image} />
               <div className="project-desc">
                  <p className="text-center px-5 py-5">{project.description}</p>
 

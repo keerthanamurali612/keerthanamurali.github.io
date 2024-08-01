@@ -9,7 +9,7 @@ export default function Header(){
         <a className="font-bold text-black text-xl " href="#"> <span className='text-3xl'> P</span>orfolio</a>
 
         <nav className="hidden md:block " >
-            <ul className="flex text-white text-xl ">
+            <ul className="flex text-white text-xl   group-hover:w-full transition-all duration-500  ">
               <li><a href="/">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Project</a></li>

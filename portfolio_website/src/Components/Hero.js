@@ -30,7 +30,7 @@ export default function Hero(){
                 <a href={config.social.github} className=' hover:text-[#007BFF]'> <AiOutlineGithub /></a>
              </div>
         </div>
-        <img className='md:w-1/3' src={HeroImg} />
+        <img className='md:w-1/3 hover:shadow-xl' src={HeroImg} />
         
 
 

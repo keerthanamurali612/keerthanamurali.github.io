@@ -1,4 +1,5 @@
 import ResumeImg from "../assets/resume.jpg";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 export default function Resume() {
 
@@ -18,8 +19,12 @@ export default function Resume() {
             Resume
           </h1>
           <p className="2xl pb-5 ">
-            You can view my resume
-            <a className="btn" href={config.link}>Download</a>
+            
+            <a className="btn" href={config.link}>
+              Download
+              
+              </a>
+              
             
           </p>
           

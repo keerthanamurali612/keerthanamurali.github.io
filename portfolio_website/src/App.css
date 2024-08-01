@@ -6,15 +6,7 @@ header ul li {
   @apply px-3 ;
 }
 
-.bg-primary{
-  background: #B85042;
-  
-}
 
-.bg-primary-light{
-  background: #d36e61;
-  
-}
 
 .bg-secondary{
   background: #eeeeeb ;
@@ -41,7 +33,7 @@ header ul li {
 }
 
 .btn{
-  @apply bg-demo-primary px-5 py-2 font-bold  hover:border-2 border-white rounded 
+  @apply bg-demo-primary px-5 py-2 font-bold text-white hover:shadow-2xl rounded 
 }
 
 html {
@@ -65,3 +57,5 @@ html {
 .bg-demo-accent{
   background: #CDE8E5;
 }
+
+/* hover:border-2 border-black rounded  */
