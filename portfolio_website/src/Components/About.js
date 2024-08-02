@@ -12,8 +12,8 @@ export default function About (){
 
 
 
-    return <section className='flex flex-col md:flex-row  px-5 font-feature-font' id="about">
-        <div className=' py-5 md:w-1/2 hover:shadow-xl rounded  '>
+    return  <section className='flex flex-col md:flex-row  px-5 font-feature-font ' id="about">
+        <div className=' py-5 md:w-1/2  border-rounded-full  hover:shadow-xl   '>
             <img  src={AboutImg}/>
         </div>
         <div className='md:w-1/2 flex justify-center '>
@@ -24,14 +24,13 @@ export default function About (){
           <p className='2xl pb-5'> {config.line2}</p>
           <p className='2xl pb-5'> {config.line3} </p>
 
-          <div>
-            
+          <div>  
                
-                <a className="btn  " href={config.link}>Download </a>
-                
-            
+                <a className="btn " href={config.link}>Download </a>  
            
           </div>
+
+
 
           </div>
            
