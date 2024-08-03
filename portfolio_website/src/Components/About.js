@@ -8,13 +8,18 @@ export default function About() {
     line2:
       "I'm proficient in Front-end skills like Reactjs,Tailwind,CSS,HTML,JS and many more  ",
     line3: "In backend i know Python,SQL",
-  };
+
+    link1:"",
+
+    link2:""
+ 
+    
+  }
 
   return (
     <section
       className="flex flex-col md:flex-row  px-5 font-feature-font "
-      id="about"
-    >
+      id="about">
       <div className=" py-5 md:w-1/2  border-rounded-full  hover:shadow-xl   ">
         <img src={AboutImg} />
       </div>
@@ -27,29 +32,15 @@ export default function About() {
           <p className="2xl pb-5"> {config.line2}</p>
           <p className="2xl pb-5"> {config.line3} </p>
 
-          {/* <div>  
-               
-                <a className="btn " href={config.link}>
-                    Download  Resume 
 
-                    <span class="button_icon">
-                        
-                        <IoCloudDownloadOutline />
-                    </span>
-
-
-                </a>  
-           
-          </div> */}
-
-          <div class="button-align">
-            <a href="" download="" class="downloadables">
+          <div class="button-align flex md:flex-row">
+            <a href={config.link1} download="" class="downloadables">
               <span class="button_text">Download Resume</span>
               <span class="button_icon">
                 <IoCloudDownloadOutline />
               </span>
             </a>
-            <a href="" download="" class="downloadables">
+            <a href={config.link2} download="" class="downloadables">
               <span class="button_text">Download CV</span>
               <span class="button_icon">
                 <IoCloudDownloadOutline />

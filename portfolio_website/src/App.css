@@ -53,28 +53,29 @@ html {
   background: #CDE8E5;
 }
 
+.button-color{
+  background-color:#db3535 ;
+}
 
+.downloadables-color{
 
+  background-color: #cb3535;
+
+}
+
+.box_shadow{
+  box-shadow: #b0b0b0;
+}
+
+/* about button */
  .button-align{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @apply flex items-center justify-between 
+
 }
  .downloadables{
-  display: inline-flex;
-  height: 40px;
-  padding: 0;
-  background-color:#db3535 ;
-  border: none;
-  outline: none;
-  border-radius: 5px;
-  overflow: hidden;
-  color: white;
-  font-size: 1rem;
-  font-weight: 800;
-  cursor: pointer;
-  box-shadow: var(--box-shadow);
-  transition: all 300ms ease;
+  @apply  inline-flex h-10 p-0 button-color  border-none outline-none border-r-4 overflow-hidden 
+  text-white text-xl font-extrabold cursor-pointer transition-all ease-in box_shadow
+  
 }
 
 .downloadables:hover{
@@ -83,7 +84,7 @@ html {
 }
 
 .downloadables:active{
-  background-color: var(--color-download-active);
+  background-color: #b13535;
 }
 
  .downloadables .button_text,
