@@ -33,7 +33,7 @@ export default function About() {
           <p className="2xl pb-5"> {config.line3} </p>
 
 
-          <div class="button-align flex md:flex-row">
+          <div class="flex items-center justify-between  ">
             <a href={config.link1} download="" class="downloadables">
               <span class="button_text">Download Resume</span>
               <span class="button_icon">
@@ -47,6 +47,7 @@ export default function About() {
               </span>
             </a>
           </div>
+          
         </div>
       </div>
     </section>

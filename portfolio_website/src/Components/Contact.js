@@ -6,6 +6,7 @@ export default function Contact() {
     phone:'123456789'
   }
     return (
+    
       <section className="flex flex-col bg-demo-secondary font-feature-font px-5 py-32" id="contact">
         
         <div className=" flex flex-col items-center">
@@ -22,7 +23,7 @@ export default function Contact() {
             
           
         </div>
-      </section>
+      </section> 
     )
     
     
