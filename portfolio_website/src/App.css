@@ -67,6 +67,12 @@ html {
   box-shadow: #b0b0b0;
 }
 
+/* header section */
+
+.nav-bar{
+  @apply no-underline hover:underline decoration-slate-50 
+}
+
 /* about button */
  .button-align{
   @apply flex items-center justify-between 
