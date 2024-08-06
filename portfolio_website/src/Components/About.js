@@ -28,24 +28,19 @@ export default function About() {
           <h1 className="text-4xl text-black border-b-4 border-[#007BFF] mb-5 w-[170px] font-bold ">
             About Me
           </h1>
-          <p className="2xl pb-5 "> {config.line1} </p>
-          <p className="2xl pb-5"> {config.line2}</p>
-          <p className="2xl pb-5"> {config.line3} </p>
+          <p className="2xl pb-5 font-hero-font "> {config.line1} </p>
+          <p className="2xl pb-5 font-hero-font"> {config.line2}</p>
+          <p className="2xl pb-5 font-hero-font"> {config.line3} </p>
 
 
-          <div class="flex items-center justify-between  ">
+          <div class="md:w-1/2  flex items-center justify-between  ">
             <a href={config.link1} download="" class="downloadables">
               <span class="button_text">Download Resume</span>
               <span class="button_icon">
                 <IoCloudDownloadOutline />
               </span>
             </a>
-            <a href={config.link2} download="" class="downloadables">
-              <span class="button_text">Download CV</span>
-              <span class="button_icon">
-                <IoCloudDownloadOutline />
-              </span>
-            </a>
+          
           </div>
           
         </div>

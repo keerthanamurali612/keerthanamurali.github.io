@@ -13,15 +13,10 @@ export default function Hero(){
    }
 
 
-
-
-
     return  <section className='flex flex-col md:flex-row px-5 py-32 bg-demo-secondary justify-center '>
         <div className='md:w-1/2 flex flex-col' >
            <h1 className=' text-4xl text-black  font-hero-font' > Hi, <br/> I'm Keerthana Murali
-
               <p className='text-2xl'>{config.subtitle}</p>
-
            </h1>
              
              <div className='flex text-3xl px-4 py-5 '>

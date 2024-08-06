@@ -79,7 +79,7 @@ html {
 
 }
  .downloadables{
-  @apply  inline-flex h-10 p-0 button-color  border-none outline-none border-r-4 overflow-hidden 
+  @apply inline-flex h-10 p-0 button-color  border-none outline-none border-r-4 overflow-hidden 
   text-white text-xl font-extrabold cursor-pointer transition-all ease-in box_shadow
   
 }

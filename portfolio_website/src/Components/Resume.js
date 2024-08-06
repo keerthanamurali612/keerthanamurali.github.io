@@ -9,7 +9,7 @@ export default function Resume() {
   return (
 
    
-    <section  id="resume" className="flex flex-col md:flex-row bg-demo-accent px-5 font-feature-font">
+    <section  id="resume" className="flex flex-col md:flex-row bg-demo-accent px-5 font-feature-font">               
       <div className=" py-5 md:w-1/2 flex justify-center md:justify-end">
         <img  className="w-[300px]" src={ResumeImg} />
       </div>
@@ -21,11 +21,8 @@ export default function Resume() {
           <p className="2xl pb-5 ">
             
             <a className="btn" href={config.link}>
-              Download
-              
-              </a>
-              
-            
+              Download             
+              </a>                        
           </p>
           
         </div>
