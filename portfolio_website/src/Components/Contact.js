@@ -18,6 +18,8 @@ export default function Contact() {
             <p className="py-2"><span className="font-bold">Email:</span>{config.email}</p>
             <p className="py-2"><span className="font-bold">Phone:</span>{config.phone}</p>          
         </div>
+
+
       </section> 
     )
     
