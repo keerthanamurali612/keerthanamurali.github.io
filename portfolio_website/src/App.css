@@ -84,9 +84,13 @@ html {
   
 }
 
-.downloadables:hover{
+.color_download{
   background-color: #cb3535;
-  box-shadow: none;
+}
+
+.downloadables:hover{
+  @apply color_download shadow-lg
+  
 }
 
 .downloadables:active{
@@ -94,18 +98,15 @@ html {
 }
 
  .downloadables .button_text,
- .downloadables .button_icon{
-  display: inline-flex;
-  align-items: center;
-  padding: 0 15px;
-  color: white;
-  height: 100%;
-}
-.downloadables .button_icon{
-  font-size: 1.5em;
-  background: rgba(0, 0, 0, 0.08);
+ .button_icon{
+  @apply inline-flex items-center p-5 text-white h-full
 }
 
-.color_download{
-  background-color: #db3535;
+.bg_button_icon{
+  background: rgba(0, 0, 0, 0.08);
 }
+.downloadables .button_icon{
+  @apply text-2xl bg_button_icon  
+}
+
+
