@@ -6,7 +6,7 @@ header ul li {
   @apply px-3 ;
 }
 
-
+/* Bg Color */
 
 .bg-secondary{
   background: #eeeeeb ;
@@ -17,6 +17,18 @@ header ul li {
   background: #edf0ee;
 }
 
+/* demo color */
+
+.bg-demo-primary{
+  background: #007BFF;
+}
+.bg-demo-secondary{
+  background: #FFFFFF;
+}
+
+.bg-demo-accent{
+  background: #CDE8E5;
+}
 
 
 .mobile-nav{
@@ -40,27 +52,14 @@ html {
   scroll-behavior:smooth ;
 }
 
-/* demo color */
 
-.bg-demo-primary{
-  background: #007BFF;
-}
-.bg-demo-secondary{
-  background: #FFFFFF;
-}
-
-.bg-demo-accent{
-  background: #CDE8E5;
-}
 
 .button-color{
   background-color:#db3535 ;
 }
 
 .downloadables-color{
-
   background-color: #cb3535;
-
 }
 
 .box_shadow{

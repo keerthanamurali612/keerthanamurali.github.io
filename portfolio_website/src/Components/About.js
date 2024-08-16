@@ -9,9 +9,9 @@ export default function About() {
       "I'm proficient in Front-end skills like Reactjs,Tailwind,CSS,HTML,JS and many more  ",
     line3: "In backend i know Python,SQL",
 
-    link1:"",
+    link1:""
 
-    link2:""
+    
  
     
   }
