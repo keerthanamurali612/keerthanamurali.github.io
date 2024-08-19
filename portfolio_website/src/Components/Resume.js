@@ -21,12 +21,14 @@ export default function Resume() {
           <p className="2xl pb-5 ">
             
             <a className="btn" href={config.link}>
-              Download             
+              Download Resume           
               </a>                        
           </p>
           
         </div>
-      </div>
+      </div> 
+
     </section>
+    
   );
 }
