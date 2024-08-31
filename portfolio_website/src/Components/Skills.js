@@ -1,7 +1,6 @@
-import ResumeImg from "../assets/resume.jpg";
-import { IoCloudDownloadOutline } from "react-icons/io5";
 
-export default function Resume() {
+
+export default function Skills() {
 
   const config={
     link:''
@@ -11,7 +10,7 @@ export default function Resume() {
    
     
       
-      <section id="skills" class="bg-gray-100 py-12 font-feature-font">
+<section id="skills" class="bg-gray-100 py-12 font-feature-font">
   <div class="container mx-auto items-center">
     <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Skills</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
