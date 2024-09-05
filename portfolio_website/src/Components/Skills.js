@@ -16,7 +16,7 @@ export default function Skills() {
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
       
       {/* <!-- Frontend Skill --> */}
-      <div class="bg-white p-6 rounded-lg shadow-md ">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl ">
         <h3 class="text-xl font-semibold text-blue-600 mb-4 flex items-center">
           <svg class="w-6 h-6 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M12 2l1.41 4.09L18 9l-4.59 1.09L12 14l-1.41-3.91L6 9l4.59-1.09L12 2z"></path>
@@ -27,7 +27,7 @@ export default function Skills() {
       </div>
       
       {/* <!-- Backend Skill --> */}
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl">
         <h3 class="text-xl font-semibold text-blue-600 mb-4 flex items-center">
         <svg class="w-6 h-6 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M12 2l1.41 4.09L18 9l-4.59 1.09L12 14l-1.41-3.91L6 9l4.59-1.09L12 2z"></path>
@@ -38,7 +38,7 @@ export default function Skills() {
       </div>
 
       {/* <!-- Frameworks Skill --> */}
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl">
         <h3 class="text-xl font-semibold text-blue-600 mb-4 flex items-center">
         <svg class="w-6 h-6 text-blue-600 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
             <path d="M12 2l1.41 4.09L18 9l-4.59 1.09L12 14l-1.41-3.91L6 9l4.59-1.09L12 2z"></path>
