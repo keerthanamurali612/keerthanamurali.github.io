@@ -12,7 +12,7 @@ export default function Skills() {
       
 <section id="skills" class="bg-gray-100 py-12 font-feature-font">
   <div class="container mx-auto items-center">
-    <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Skills</h2>
+    <h2 class="text-4xl  text-center  text-black border-b-4 border-[#007BFF] mb-8 w-[100px] font-bold">Skills</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
       
       {/* <!-- Frontend Skill --> */}
@@ -23,7 +23,7 @@ export default function Skills() {
           </svg>
           Frontend 
         </h3>
-        <p class="font-hero-font">HTML5,CSS3,Javascript</p>        
+        <p class="font-hero-font">HTML5,CSS3,Javascript,Boostrap</p>        
       </div>
       
       {/* <!-- Backend Skill --> */}
@@ -45,7 +45,7 @@ export default function Skills() {
           </svg>
           Frameworks
         </h3>  
-        <p class="font-hero-font">React,Angular</p>   
+        <p class="font-hero-font">React,Flask,Angular</p>   
       </div>
     </div>
   </div>
